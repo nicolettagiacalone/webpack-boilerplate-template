@@ -1,0 +1,4 @@
+node_modules
+
+# Bundle Frontend Assets
+/theme/assets/dist/*
