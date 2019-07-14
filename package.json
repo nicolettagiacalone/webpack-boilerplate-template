@@ -1,0 +1,42 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "[ADD A PROJECT'S DESCRIPTION]",
+  "main": "webpack.js",
+  "scripts": {
+    "browsersync": "browser-sync start --proxy 'http://localhost:6060'",
+    "webpack": "webpack theme/assets/js/index.js -o theme/assets/dist/theme.bundle.js theme/assets/scss/index.scss",
+    "build": "npm run webpack -- --mode=production",
+    "dev": "npm run webpack -- --mode=development --progress --watch",
+    "stats": "webpack --profile --json > webpack-stats.json"
+  },
+  "author": "[ADD YOUR NAME]",
+  "email": "[ADD YOUR EMAIL ADDRESS]",
+  "url": "[ADD YOUR WEBSITE URL]",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "path": "^0.12.7",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack": "^4.35.3",
+    "webpack-build-notifier": "^1.0.3",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
