@@ -1,10 +1,10 @@
 # webpack-boilerplate-template
-A webpack boilerplate template to build Frontend assets.
+This is a webpack boilerplate template to build front-end assets.
 
-**This is not a full guide about Webpack, but it give you a briefly overview about the tool and a ready to use template configuration and dependencies to build your Frontend assets based on an entry point. For more detailed information, please check out the Official Webpack documentation [https://webpack.js.org/concepts/]**
+**This is not intended to be a full guide about Webpack, but it will give you a brief overview of the tool and a ready to use template to help you build your front-end assets based on an entry point. For more detailed information, please check out the Official Webpack documentation at: [https://webpack.js.org/concepts/]**
 
 ## What is Webpack?
-Webpack is a popular module bundler for modern Javascript applications, which means it runs internally during your development and it build a dependecy graph, like a map of how each dependency depends on another.
+Webpack is a popular tool that enables you to compile JavaScript modules. It is also known as a module bundler, which means it runs internally during your development and builds a dependency graph, showing a map of how each resource relies on another.
 
 ### Inspect your Webpack bundle
 - Webpack Visualizer: [https://chrisbateman.github.io/webpack-visualizer/]
@@ -18,11 +18,11 @@ Both tools take a `.json` file that Webpack generates with the following command
 
 ## What is included in this repository
 
-### Frontend build:
+### Tech:
 - Webpack compiles the JS and CSS assets for the (HTML5 or Wordpress) Theme.
 - Browsersync synchronize file changes and interactions across many devices.
 
-#### Frontend Build/processing:
+#### Build/processing:
 
 - `npm run build` – build frontend assets once (script should terminate)
 - `npm run dev` – build and watch for changes in file (manually terminate), also provides Browsersync
@@ -67,7 +67,7 @@ _Both defined within the `webpack.js` file.
 
 ## How you could use this template
 To build a HTML5 or Wordpress Theme.
-**This is not a configuration to build Frontend assets for Gutenberg blocks in Wordpress V.5**
+**This is not intended to be a guide about how to build front-end assets for Gutenberg blocks in Wordpress V.5**
 
 ## ToDo:
 - Improve output filenames: use different bundle names for `production` and `development` mode.
